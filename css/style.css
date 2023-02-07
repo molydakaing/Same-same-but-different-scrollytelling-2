@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-family: "Sora";
+  font-weight: "Semibold";
+  font-size: 1000;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+a{
+  color: rgb(40, 238, 83);
+  text-decoration: none;
+}
+
+p {
+  font-family: "Sora";
+  color: #000000;
+  font-size: 15px;
+  font-weight: "Regular";
+  text-align: center;
+
+}
+
+  
+
+div{
+  border: 1px solid transparent; 
+}
+
+
+.noscrolly {
+  padding: 0;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.article {
+  position: relative;
+  padding: 0;
+  max-width: 18rem;
+  margin: 0 auto;
+}
+
+.figure {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+  width: auto;
+  height: 100vh;
+}
+
+.step {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 100vh;
+  border: 1px dashed transparent;
+
+}
+
+.step p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Sora';
+  font-weight: "Regular";
+  text-align: center;
+  margin: 0;
+}
+
+.sticky-img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+
